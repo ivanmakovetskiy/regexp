@@ -58,7 +58,7 @@ public class StateMachine {
      */
     public void add(Integer from, List<Character> chars, Integer to) {
         for (Character ch : chars) {
-            add(from, ch.charValue(), to);
+            add(from, ch, to);
         }
     }
 
